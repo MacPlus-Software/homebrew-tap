@@ -95,4 +95,4 @@ More: https://noteifyapp.com/tab-finder/
 
 ## Contact
 
-Questions or problems with a cask: sergey@noteifyapp.com
+Questions or problems with a cask: feedback@noteifyapp.com
