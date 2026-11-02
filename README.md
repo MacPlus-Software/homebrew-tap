@@ -53,16 +53,6 @@ brew install --cask macplus-software/tap/dockview
 
 More: https://noteifyapp.com/dockview/
 
-### FlexiNet
-
-A small menu bar app that shows the current macOS network location and lets you switch to another one in a click. Handy when you move between home, office and test setups that need different network settings.
-
-```sh
-brew install --cask macplus-software/tap/flexinet
-```
-
-More: https://noteifyapp.com/flexinet/
-
 ### MaxSnap
 
 A window manager for moving and resizing windows without careful mouse work. Use preset layouts from the keyboard or the menu bar, drag a window from anywhere while holding a modifier key, or arrange windows with trackpad swipes across Spaces and displays.
