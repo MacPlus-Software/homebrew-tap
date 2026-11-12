@@ -1,6 +1,6 @@
 cask "dockview" do
-  version "2.6.0"
-  sha256 "b5276499a704d5b99bbc659f13872a6cd1a947229ade80fd8e8792b8dd9f0112"
+  version "2.6.1"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/DockView%202.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "dockview" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "DockView 2.app"
 

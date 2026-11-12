@@ -1,6 +1,6 @@
 cask "maxsnap" do
   version "1.9.1"
-  sha256 "694e327f8c05f62a2fd8c5683366759c965adc4d5764d2a5ea6d19423f07eee4"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/MaxSnap.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "maxsnap" do
   end
 
   auto_updates true
-  depends_on macos: ">= :high_sierra"
+  depends_on :macos
 
   app "MaxSnap.app"
 

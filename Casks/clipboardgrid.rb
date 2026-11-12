@@ -1,6 +1,6 @@
 cask "clipboardgrid" do
   version "1.0.2"
-  sha256 "38809902de48cd495351e4ff47e7090ccf3d34631334feee814a9010c92eb351"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/ClipboardGrid.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "clipboardgrid" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ClipboardGrid.app"
 
