@@ -1,6 +1,6 @@
 cask "supertab" do
-  version "1.1"
-  sha256 "a35dff838d260a76ea2511253b87434e9f8de6f8ed71eac0e606b07584be2624"
+  version "1.2"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/SuperTab%207.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "supertab" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SuperTab 7.app"
 

@@ -1,6 +1,6 @@
 cask "activedock" do
   version "2.884"
-  sha256 "1d69c3f723ceb8fafa1ef97ffed74223c23a4784c0b1c2f03832fad034d72bca"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/ActiveDock.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "activedock" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ActiveDock 2.app"
 

@@ -1,6 +1,6 @@
 cask "tab-finder" do
-  version "2.1.19"
-  sha256 "8465771012f2fb2f4b615c82dbc78dbf19a750b9972901428df4cec257f95f60"
+  version "2.1.20"
+  sha256 :no_check
 
   url "https://macplus-software.com/downloads/Tab%20Finder.zip",
       verified: "macplus-software.com/downloads/"
@@ -14,7 +14,7 @@ cask "tab-finder" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tab Finder 2.app"
 
