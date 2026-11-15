@@ -37,7 +37,7 @@
    - `brew uninstall --cask <token>`
    - **`brew uninstall --zap` не запускать никогда** — сносит данные пользователя. Gatekeeper не обходить.
 6. Один коммит `<token> <версия> (new cask)`, автор — Сергей (git user `gerasimsergey`). **Без** строки `Co-Authored-By`: мейнтейнер bevanjkay просил убрать её в #298846.
-7. PR по шаблону homebrew-cask; галочки только за реально выполненное. Абзац о помощи агента обязателен:
+7. Описание PR — **текущий `.github/PULL_REQUEST_TEMPLATE.md` дословно**, со всеми строками `<!-- -->` и `<cask>`: взять `gh api repos/Homebrew/homebrew-cask/contents/.github/PULL_REQUEST_TEMPLATE.md --jq .content | base64 -d`, заменить только `- [ ]` на `- [x]` за реально выполненное и вписать абзац после комментария про AI. Свой пересказ шаблона робот `incomplete-pr-template` закрывает за секунды (так было с #302857, 15.11); починка — `gh pr edit --body-file`, робот откроет PR сам, новый не открывать. Абзац о помощи агента обязателен:
    «I'm the developer of <App>. An AI assistant drafted the cask and ran audit/style/install/uninstall on my Mac; I reviewed the cask, including the zap paths.»
 8. На вопросы мейнтейнеров отвечает **Сергей сам, без AI** — это требование Homebrew. Агент может дать смысл ответа, текст пишет он.
 9. Влит — комментарий в MAC-1158 и одна строка штабу A. Следующий каск — только после этого.
