@@ -43,6 +43,16 @@ brew install --cask macplus-software/tap/command-tab-plus
 
 More: https://noteifyapp.com/command-tab-plus/
 
+### DeskCover 2
+
+Keeps your attention on the window you work in. Everything else dims or turns to frosted glass, a border marks the active window, and desktop clutter disappears under a calm cover. Keep up to five windows in focus, on every display.
+
+```sh
+brew install --cask macplus-software/tap/deskcover
+```
+
+More: https://noteifyapp.com/deskcover/
+
 ### DockView 2
 
 Hover over an app in the Dock to see live previews of all its windows, then click the one you want. It works with Stage Manager, multiple displays and full-screen Spaces, and it previews windows minimized to the Dock as well.
